@@ -3,6 +3,9 @@ package com.saothienhat.projects.tracnghiem;
 public class Question {
 	private int id;
 	private String content;
+	/**
+	 * Field of type QuestionContentType to store questionContentType  
+	 */
 	private QuestionContentType questionContentType;
 	
 	/**
