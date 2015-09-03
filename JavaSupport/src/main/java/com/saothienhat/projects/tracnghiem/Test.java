@@ -3,6 +3,8 @@ package com.saothienhat.projects.tracnghiem;
 public class Test {
 	private Question question;
 	private Answer answer;
+	// Explain for Answer
+	private String explaination;
 	
 	/**
 	 * @return the question
@@ -11,14 +13,18 @@ public class Test {
 		return question;
 	}
 	
+	
 	/**
-	 * @param question the question to set
+	 * Method to setQuestion
+	 *
+	 * @param question
 	 */
 	public void setQuestion(Question question) {
 		this.question = question;
 	}
 	
 	/**
+	 * Construct new instance of Test
 	 */
 	public Test() {
 	}
@@ -35,6 +41,22 @@ public class Test {
 	 */
 	public void setAnswer(Answer answer) {
 		this.answer = answer;
+	}
+
+	
+	/**
+	 * @return the explaination
+	 */
+	public String getExplaination() {
+		return explaination;
+	}
+
+	
+	/**
+	 * @param explaination the explaination to set
+	 */
+	public void setExplaination(String explaination) {
+		this.explaination = explaination;
 	}
 
 }
