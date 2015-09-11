@@ -1,7 +1,7 @@
 10
 
 dir
-106
+120
 file:///D:/PROJECTS/SVN_Repository/My_Projects/branches/JavaSupport/JavaSupport/src/main/java/com/saothienhat
 file:///D:/PROJECTS/SVN_Repository
 
@@ -26,6 +26,19 @@ has-props
 
 ce72f34c-4fd7-284d-be38-04ffce158577
 
+projects
+dir
+
+clouds
+dir
+
+commons
+dir
+
 JavaSupport
 dir
+
+
+
+delete
 
