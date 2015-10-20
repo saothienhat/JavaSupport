@@ -27,6 +27,9 @@ public class Test {
 	 * Construct new instance of Test
 	 */
 	public Test() {
+	    this.question = new Question();
+	    this.answer = new Answer();
+	    this.explaination = "";
 	}
 
 	/**
