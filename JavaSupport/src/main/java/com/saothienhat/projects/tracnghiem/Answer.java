@@ -8,6 +8,17 @@ public class Answer {
 	private String answerC;
 	private String answerD;
 	private String answerE;
+	private String explaination;
+	public String getExplaination()
+	{
+		return explaination;
+	}
+
+	public void setExplaination( String explaination )
+	{
+		this.explaination = explaination;
+	}
+
 	private CorrectAnswerType correctAnswerType;
 	
 	
